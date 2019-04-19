@@ -9,7 +9,6 @@
     没有自己的 this，无法调用 call，apply。<br>
     没有 prototype 属性 ，而 new 命令在执行时需要将构造函数的 prototype 赋值给新的对象的 `__proto__`<br>
     new 过程大致是这样的：<br>
-
 ```js
 function newFunc(father, ...rest) {
     var result = {};
