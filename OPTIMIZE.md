@@ -1,7 +1,7 @@
-# CSS部分面试题汇总
+# 前端性能优化部分面试题汇总
 ---
 ### 1.分析比较 opacity: 0、visibility: hidden、display: none 优劣和适用场景。
-   - **解析**：<br>
+   - **解析：**<br>
     结构：<br>
     display:none: 会让元素完全从渲染树中消失，渲染的时候不占据任何空间, 不能点击，
     visibility: hidden:不会让元素从渲染树消失，渲染元素继续占据空间，只是内容不可见，不能点击
